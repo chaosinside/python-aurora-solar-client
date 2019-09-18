@@ -10,11 +10,12 @@ This is a generic client that can be used to integrate with the Aurora Solar API
 
 It is recommended that you create a virtual environment and then simply install the requests library.
 
-#### MacOS/Linux
+#### Creating a virtual environment
+##### MacOS/Linux
 	python3 -m venv pyenv
 	source pyenv/bin/activate
 
-#### Windows
+##### Windows
 	py -m venv pyenv
 	.\pyenv\Scripts\activate
 
@@ -23,10 +24,12 @@ It is recommended that you create a virtual environment and then simply install 
 	pip install requests
 
 ### Usage
-AuroraClient must be initialized with a tenant_id, api_key, and api_secret. Once intialized, you can use any of the provided functions to return a response object.
+AuroraClient must be initialized with a tenant_id, api_key, and api_secret. Once intialized, you can use any of the provided functions to return a requests response object.
 
 ### Example
-```
+```python
+from .client import AuroraClient
+
 tenant_id = "my_tenant_id"
 api_key = "my_api_key"
 api_secret = "my_api_secret"
@@ -34,4 +37,5 @@ aurora_project_id = "my_aurora_project_id"
 
 client = AuroraClient(tenant_id, api_key, api_secret)
 response = client.get_project(aurora_project_id)
+print("response:", response.text)
 ```
