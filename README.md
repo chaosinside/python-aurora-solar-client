@@ -1,4 +1,4 @@
-# Aurora Solar API Client
+# Python Aurora Solar Client
 
 This is a generic client that can be used to integrate with the Aurora Solar API.
 
