@@ -1,7 +1,7 @@
 import requests, json, hashlib, hmac, base64, urllib.parse
 from datetime import datetime
 
-class AuroraClient:
+class AuroraSolarClient:
 	# static variables
 	BASE_URL = "https://api.aurorasolar.com"
 	headers = { "Content-Type": "application/json", "Accept": "application/json" }
