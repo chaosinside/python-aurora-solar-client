@@ -1,3 +1,6 @@
 .vscode
 pyenv
 *.pyc
+AuroraSolarClient.egg-info/
+build/
+dist/
