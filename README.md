@@ -1,27 +1,13 @@
 # Python Aurora Solar Client
 
-This is a generic client that can be used to integrate with the Aurora Solar API.
+A python client for the Aurora Solar API.
 
-### Requirements
-* Python (with pip)
+### Dependencies
 * requests
 
 ### Getting Started
 
-It is recommended that you create a virtual environment and then simply install the requests library.
-
-#### Creating a virtual environment
-##### MacOS/Linux
-	python3 -m venv pyenv
-	source pyenv/bin/activate
-
-##### Windows
-	py -m venv pyenv
-	.\pyenv\Scripts\activate
-
-#### Install Requests
-
-	pip install requests
+	pip install AuroraSolarClient
 
 ### Usage
 AuroraSolarClient must be initialized with a tenant_id, api_key, and api_secret. Once intialized, you can use any of the provided functions to return a requests response object.
