@@ -14,7 +14,7 @@ AuroraSolarClient must be initialized with a tenant_id, api_key, and api_secret.
 
 ### Example
 ```python
-from .client import AuroraSolarClient
+from AuroraSolarClient import AuroraSolarClient
 
 tenant_id = "my_tenant_id"
 api_key = "my_api_key"
