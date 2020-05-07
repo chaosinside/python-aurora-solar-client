@@ -4,3 +4,4 @@ pyenv
 AuroraSolarClient.egg-info/
 build/
 dist/
+build-info.txt

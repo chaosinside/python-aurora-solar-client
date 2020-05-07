@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="AuroraSolarClient",
-    version="1.0.3",
+    version="1.0.4",
     author="Chris Hubbard",
     author_email="chubbard@gmail.com",
     description="A python client for Aurora Solar",

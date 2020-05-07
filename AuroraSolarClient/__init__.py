@@ -1,1 +1,1 @@
-from client import AuroraSolarClient
+from .client import AuroraSolarClient
